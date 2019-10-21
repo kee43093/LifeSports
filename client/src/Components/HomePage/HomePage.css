@@ -1,0 +1,186 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-left {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Select Section */
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.select-icon {
+    font-size: 80px;
+}
+
+.select-box-container {
+    box-shadow: 2px 2px 5px #dddddd;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 250px;
+    transition: 0.3s all ease-in-out;
+}
+
+.select-box {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80%;
+    transition: 0.3s all ease-in-out;
+}
+
+#select-box-right {
+    margin-right: 0 !important;
+}
+
+.select-box-container:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+    transform: scale(1.05);
+}
+
+.select-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4942E;
+    min-height: 20%;
+    transition: 0.3s all ease-in-out;
+}
+
+.select-header {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.3s all ease-in-out;
+}
+
+.select-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Intro Section */
+
+.intro-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 5rem;
+    background-color: #dddddd;
+}
+
+.intro-header {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro-desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-span-left {
+    letter-spacing: 2px;
+    color: #F4942E;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+}
+
+.intro-span-right {
+    color: #000000;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+.intro-left {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 10%;
+}
+
+.intro-right {
+    width: 50%;
+    min-height: 450px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url(https://lifesports.org/wp-content/uploads/lifekicks-19.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.intro-button-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hoops-button {
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 16px;
+    border: none;
+    background-color: #F4942E;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.kicks-button {
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 16px;
+    border: none;
+    background-color: #00adee;
+    color: #ffffff;
+}
+
+.hoops-button:hover, .kicks-button:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+}
+
+.intro-button-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hoops-button:enabled, .kicks-button:enabled {
+    outline: none;
+}

@@ -1,0 +1,66 @@
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    padding: 1rem;
+    min-height: 10vh;
+}
+
+.nav-brand {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Exo', sans-serif;
+}
+
+.nav-span {
+    letter-spacing: 2px;
+    color: #F4942E;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s all ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover {
+    color: #F4942E;
+}
+
+.nav-active {
+    color: #F4942E;
+}
+
+.nav-icon {
+    display: none;
+}
+
+@media (max-width: 950px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+        color: #ffffff;
+        font-size: 30px;
+    }
+}
