@@ -11,7 +11,7 @@
 2. Install OR update MySQL Workbench
 3. Clone this repository:
 
-`git clone https://github.com/alexneill/lifesports.git`
+`git clone https://github.com/kee43093/LifeSportsChallege`
 
 4. Start both client and server
 
